@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akarthik10.locationreporter.LocationReporterActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+       <item android:id="@+id/auto_scroll_checkbox" 
+         android:titleCondensed="Auto Scroll"
+         android:title="Auto Scroll" 
+         android:icon="@android:drawable/ic_menu_preferences" 
+         android:checkable="true" 
+         android:checked="true" />
+       
+       <item android:id="@+id/device_name" 
+         android:titleCondensed="Device name"
+         android:title="Change device name" 
+         android:icon="@android:drawable/ic_menu_preferences" />
+
+</menu>
